@@ -1,0 +1,238 @@
+@charset "UTF-8";
+header .header-background {
+  background-color: #361b00;
+  width: 100% !important;
+}
+
+header .header-background .header-ul {
+  font-size: 20px;
+}
+
+header .header-background ul li {
+  list-style: none;
+}
+
+header .header-background ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+header .header-background ul li a:hover {
+  color: #a2a2a2;
+}
+
+header .header-background .header-info {
+  font-size: 24px;
+}
+
+header .header-background .header-info:first-child {
+  color: orange;
+}
+
+header .header-background .header-info:nth-child(2) {
+  color: #fff;
+}
+
+header .header-background .mobile-logo {
+  font-size: 20px;
+  color: orange;
+}
+
+header .mobile-navbar {
+  width: 100% !important;
+}
+
+main .first-part {
+  background-color: rgba(51, 51, 51, 0.54);
+  position: relative;
+  height: 30%;
+}
+
+main .first-part .background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  background: url(../img/1-Бамбук_category_covers.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+main .first-part .first-part-text a {
+  padding: 10px;
+  border: 1px solid orange;
+  border-radius: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+main .secondary-part .cards .card {
+  position: relative;
+  background-color: rgba(51, 51, 51, 0.54);
+}
+
+main .secondary-part .cards .card:hover {
+  background-color: rgba(51, 51, 51, 0.2);
+  cursor: pointer;
+}
+
+main .secondary-part .cards .card .card-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  background: url(../img/1-Бамбук_category_covers.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+main .secondary-part .cards .card .card-text {
+  z-index: 1;
+}
+
+main .secondary-part .secondary-texts {
+  color: #a2a2a2;
+}
+
+main .third-part {
+  background-color: #361b00;
+  width: 100% !important;
+}
+
+main .third-part img {
+  width: 80%;
+}
+
+main .third-part .third-cards .third-card .third-card-in {
+  background-color: #934a00;
+}
+
+main .third-part .third-cards .third-card-more a {
+  text-decoration: none;
+  padding: 10px;
+  border: 1px solid orange;
+  border-radius: 20px;
+  color: orange;
+}
+
+main .forth-part .forth-part-img img {
+  width: 100%;
+  height: 350px;
+}
+
+main .forth-part a {
+  color: orange;
+}
+
+main .fifth-part {
+  background-color: #361b00;
+}
+
+main .fifth-part h3 {
+  color: #fff;
+}
+
+main .fifth-part .fifth-card {
+  background-color: #934a00;
+}
+
+main .fifth-part .fifth-card img {
+  width: 80%;
+}
+
+main .sixth-part .input-field {
+  border-bottom: 2px solid orange;
+}
+
+main .sixth-part .input-field input {
+  border: 0;
+}
+
+main .sixth-part .input-field input:focus-visible {
+  outline: none;
+}
+
+main .sixth-part .button-field button {
+  border-radius: 20px;
+  padding: 3px 30px;
+  background-color: orange;
+  color: #fff;
+  border: none;
+}
+
+main .seventh-part {
+  background-color: #361b00;
+  color: #fff;
+}
+
+main .seventh-part .sales .sale-component-active {
+  border-bottom: 2px solid orange !important;
+}
+
+main .seventh-part .sales .sale-component {
+  border-bottom: 2px solid #9d9d9d;
+}
+
+main .seventh-part .seventh-cards .seventh-card {
+  position: relative;
+  background-color: #934a00;
+}
+
+main .seventh-part .seventh-cards .seventh-card .sale-price {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background-color: orange;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+main .seventh-part .seventh-cards .seventh-card img {
+  width: 80%;
+}
+
+footer .footer-contact .phone-number {
+  border-bottom: 1px solid orange;
+}
+
+footer .footer-contact input[type=number] {
+  border: 0;
+}
+
+footer .footer-contact input[type=number]:focus-visible {
+  outline: none;
+}
+
+footer .footer-contact .checkbox-text {
+  border-bottom: 1px solid orange;
+}
+
+footer .footer-contact button {
+  background-color: orange;
+  border: none;
+  padding: 5px 20px;
+  border-radius: 30px;
+}
+
+footer .footer-nav {
+  background-color: #361b00;
+  color: #fff;
+}
+
+footer .footer-nav ul {
+  padding-left: 0;
+}
+
+footer .footer-nav ul li {
+  list-style: none;
+}
+
+footer .footer-nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */
