@@ -66,6 +66,7 @@ main{
         .cards{
             .card{
                 position: relative;
+                height: 180px;
                 background-color: rgba(51, 51, 51, 0.54);
                 &:hover{
                 background-color: rgba(51, 51, 51, 0.2);
@@ -94,13 +95,22 @@ main{
     .third-part{
         background-color: $background-color;
         width: 100% !important;
+        .sales{
+            color: #fff;
+            .sale-component-active{
+                border-bottom: 2px solid $main-color !important;
+            }
+            .sale-component{
+                border-bottom: 2px solid rgb(157, 157, 157);
+            }
+        }
         img{
             width: 80%;
         }
         .third-cards{
             .third-card{
                 .third-card-in{
-                    background-color: rgb(147, 74, 0);
+                    background-color: $card-background-color;
                 }
                 
             }
@@ -139,8 +149,11 @@ main{
         }
     }
     .sixth-part{
+        background-color: $background-color;
+        color: #fff;
         .input-field{
             input{
+                background-color: $background-color;
                 border:0;
                 &:focus-visible{
                     outline: none;

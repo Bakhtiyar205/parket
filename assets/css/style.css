@@ -1,6 +1,6 @@
 @charset "UTF-8";
 header .header-background {
-  background-color: #361b00;
+  background-color: #403a3c;
   width: 100% !important;
 }
 
@@ -70,6 +70,7 @@ main .first-part .first-part-text a {
 
 main .secondary-part .cards .card {
   position: relative;
+  height: 180px;
   background-color: rgba(51, 51, 51, 0.54);
 }
 
@@ -99,8 +100,20 @@ main .secondary-part .secondary-texts {
 }
 
 main .third-part {
-  background-color: #361b00;
+  background-color: #403a3c;
   width: 100% !important;
+}
+
+main .third-part .sales {
+  color: #fff;
+}
+
+main .third-part .sales .sale-component-active {
+  border-bottom: 2px solid orange !important;
+}
+
+main .third-part .sales .sale-component {
+  border-bottom: 2px solid #9d9d9d;
 }
 
 main .third-part img {
@@ -108,7 +121,7 @@ main .third-part img {
 }
 
 main .third-part .third-cards .third-card .third-card-in {
-  background-color: #934a00;
+  background-color: #585556;
 }
 
 main .third-part .third-cards .third-card-more a {
@@ -129,7 +142,7 @@ main .forth-part a {
 }
 
 main .fifth-part {
-  background-color: #361b00;
+  background-color: #403a3c;
 }
 
 main .fifth-part h3 {
@@ -144,11 +157,17 @@ main .fifth-part .fifth-card img {
   width: 80%;
 }
 
+main .sixth-part {
+  background-color: #403a3c;
+  color: #fff;
+}
+
 main .sixth-part .input-field {
   border-bottom: 2px solid orange;
 }
 
 main .sixth-part .input-field input {
+  background-color: #403a3c;
   border: 0;
 }
 
@@ -165,7 +184,7 @@ main .sixth-part .button-field button {
 }
 
 main .seventh-part {
-  background-color: #361b00;
+  background-color: #403a3c;
   color: #fff;
 }
 
@@ -219,7 +238,7 @@ footer .footer-contact button {
 }
 
 footer .footer-nav {
-  background-color: #361b00;
+  background-color: #403a3c;
   color: #fff;
 }
 
