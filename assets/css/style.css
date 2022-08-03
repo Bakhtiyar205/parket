@@ -25,6 +25,11 @@ header .header-background .header-info {
   font-size: 24px;
 }
 
+header .header-background .header-info img {
+  width: 60px;
+  height: 50px;
+}
+
 header .header-background .header-info:first-child {
   color: orange;
 }
@@ -36,6 +41,11 @@ header .header-background .header-info:nth-child(2) {
 header .header-background .mobile-logo {
   font-size: 20px;
   color: orange;
+}
+
+header .header-background .mobile-logo img {
+  width: 60px;
+  height: 50px;
 }
 
 header .mobile-navbar {
@@ -71,12 +81,18 @@ main .first-part .first-part-text a {
 main .secondary-part .cards .card {
   position: relative;
   height: 180px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
   background-color: rgba(51, 51, 51, 0.54);
 }
 
 main .secondary-part .cards .card:hover {
   background-color: rgba(51, 51, 51, 0.2);
   cursor: pointer;
+}
+
+main .secondary-part .cards .card:hover .card-text {
+  color: #fff;
 }
 
 main .secondary-part .cards .card .card-background {
@@ -93,6 +109,9 @@ main .secondary-part .cards .card .card-background {
 
 main .secondary-part .cards .card .card-text {
   z-index: 1;
+  color: #b5b5b5;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 main .secondary-part .secondary-texts {
@@ -105,14 +124,16 @@ main .third-part {
 }
 
 main .third-part .sales {
-  color: #fff;
+  color: #d5d5d5;
 }
 
 main .third-part .sales .sale-component-active {
   border-bottom: 2px solid orange !important;
+  color: #fff !important;
 }
 
 main .third-part .sales .sale-component {
+  cursor: pointer;
   border-bottom: 2px solid #9d9d9d;
 }
 
@@ -120,8 +141,38 @@ main .third-part img {
   width: 80%;
 }
 
+main .third-part .third-cards .third-card {
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+main .third-part .third-cards .third-card a {
+  color: #9d9d9d;
+  text-decoration: none;
+}
+
+main .third-part .third-cards .third-card img {
+  opacity: 0.7;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
 main .third-part .third-cards .third-card .third-card-in {
   background-color: #585556;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+main .third-part .third-cards .third-card:hover a {
+  color: #fff;
+}
+
+main .third-part .third-cards .third-card:hover img {
+  opacity: 1;
+}
+
+main .third-part .third-cards .third-card:hover .third-card-in {
+  background-color: #878787;
 }
 
 main .third-part .third-cards .third-card-more a {
@@ -253,5 +304,47 @@ footer .footer-nav ul li {
 footer .footer-nav ul li a {
   text-decoration: none;
   color: #fff;
+}
+
+.catalogs a {
+  color: #333;
+  text-decoration: none;
+}
+
+.catalogs a .catalog {
+  position: relative;
+  height: 180px;
+}
+
+.catalogs a .catalog .catalog-background-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  background: url(../img/1-Бамбук_category_covers.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.catalogs a .catalog .catalog-info-text {
+  z-index: 1;
+  opacity: 0;
+  -webkit-transform: translateX(-10px);
+          transform: translateX(-10px);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  color: #fff;
+}
+
+.catalogs a .catalog:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.catalogs a .catalog:hover .catalog-info-text {
+  opacity: 1;
+  -webkit-transform: translateX(20px);
+          transform: translateX(20px);
 }
 /*# sourceMappingURL=style.css.map */
