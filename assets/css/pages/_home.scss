@@ -19,6 +19,50 @@ header{
                 }
             }
         }
+
+        // Catalog Categories
+        #catalog-nav{
+            position: relative;
+            #catalog-categories{
+                position: absolute;
+                top: 10;
+                left: 0;
+                background-color: $background-color;
+                z-index: -200;
+                opacity: 0;
+                width: 200px;
+                height: 100px;
+                overflow-y: auto;
+                border-bottom-left-radius: 5px;
+                border-bottom-right-radius: 5px;
+                &::-webkit-scrollbar {
+                    width: 10px;
+                  }
+                  
+                  /* Track */
+                &::-webkit-scrollbar-track {
+                    box-shadow: inset 0 0 5px grey; 
+                    border-radius: 10px;
+                  }
+                   
+                  /* Handle */
+                &::-webkit-scrollbar-thumb {
+                    background: #fff; 
+                    border-radius: 10px;
+                  }
+                  
+                  /* Handle on hover */
+                &::-webkit-scrollbar-thumb:hover {
+                    background: #fff; 
+                  }
+                padding-left: 0 !important;
+                
+            }
+            .catalog-hover{
+                z-index: 200 !important;
+                opacity: 1 !important;
+            }
+        }
         .header-info{
             font-size: 24px;
             img{
